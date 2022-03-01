@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='stylesheets/style.css') }}" media="screen" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form" action="/register" method="POST">
+        <h2>Create New User</h2><br/>
+        <div class="form-control">
+          <label for="first_name">First Name</label>
+          <input type="text" name="first_name" placeholder="Enter First Name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" placeholder="Enter Last Name" />
+            <small>Error message</small>
+          </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" name="phone_number" placeholder="Enter Phone Number" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="role">Role</label>
+            <input type="text" name="role" placeholder="Enter Role (admin or user)" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm password</label>
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Renter your password"
+          />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>

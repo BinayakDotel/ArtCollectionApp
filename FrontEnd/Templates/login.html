@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='stylesheets/style.css') }}" media="screen" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form" action="/login" method="POST">
+        <h2>Login To Continue</h2><br/>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>
