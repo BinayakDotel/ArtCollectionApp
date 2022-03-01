@@ -1,7 +1,8 @@
 # ArtCollectionApp
 This is the python Flask backend enables the user to interact with data.
 
-API:
+API:  
+url :- api/users/
 for logging in to the system:
   -> Parameters:
       -email: This is the email address of the registerd user.
