@@ -2,32 +2,32 @@
 This is the python Flask backend enables the user to interact with data.
 
 API:  
-url :- api/users/ <br>
-for logging in to the system:
-  -> Parameters:
-      -email: This is the email address of the registerd user.
-      -password: This is the password of the email address.
+url :- api/users/ <br><br>
+for logging in to the system:<br>
+  -> Parameters:<br>
+      -email: This is the email address of the registerd user.<br>
+      -password: This is the password of the email address.<br><br>
    
-  -> eg payload:
-    {
-      "email": "your email",
-      "password": "your password"
-    }
+  -> eg payload:<br>
+    {<br>
+      "email": "your email",<br>
+      "password": "your password"<br>
+    }<br><br>
    
-   -> eg Response:
-     if success:
-      {
-        "email": "your email",
-        "name": "your name",
-        "phone_number": "number",
-        "role": "admin",
-        "status": "success",
-        "userid": "Id of the logged in user"
-      }
-      if error:
-      {
-        "status": "error"
-      }
+   -> eg Response:<br>
+     if success:<br>
+      {<br>
+        "email": "your email",<br>
+        "name": "your name",<br>
+        "phone_number": "number",<br>
+        "role": "admin",<br>
+        "status": "success",<br>
+        "userid": "Id of the logged in user"<br>
+      }<br><br>
+      if error:<br>
+      {<br>
+        "status": "error"<br>
+      }<br>
   
   
   
