@@ -29,5 +29,35 @@ for logging in to the system:<br>
         "status": "error"<br>
       }<br>
   
-  
+ # Screenshot
+ 
+ <b>Login and Register screen</b>
+ <p align="center">
+  <img src="screenshots/Login.jpg" width="350" title="hover text">
+  <img src="screenshots/Register.jpg" width="350" alt="accessibility text">
+</p>
+<br><br><hr>
+<b>Home Screen</b><br><br>
+This is the HomePage where all the arts from the database are retreived from the database and displayed.<br>
+Response Format:{<br>
+  "userid": "ID of the user who uploaded the Art",<br>
+  "categoryid": "CategoryId of the Art",<br>
+  "title" : "Name of Art",<br>
+  "category": "Brief description of Art",<br>
+  "rating" : "Rating of the Art",<br>
+  "author_name": "Name of author who uploaded the Art",<br>
+}<br><br>
+<p align="center">
+  <img src="screenshots/HomePage.jpg" width="350" title="hover text">
+</p><br><br><hr>
+
+<p align="center">
+  <img src="screenshots/AddNewCategory.jpg" width="350" title="hover text">
+</p><br><br><hr>
+
+<p align="center">
+  <img src="screenshots/EditProfile.jpg" width="350" title="hover text">
+</p>
+
+
   
