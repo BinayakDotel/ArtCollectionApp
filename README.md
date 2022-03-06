@@ -1,5 +1,10 @@
 # ArtCollectionApp
-This is the python Flask backend enables the user to interact with data.
+This is the python Flask backend enables the user to interact with data.<br>
+It contains functionality:
+  <li>Register and Login </li> 
+  <li>Add new category(Art) along with its title, category and image</li> 
+  <li>Edit User Data </li> 
+  <li>Edit the category title and category name (Allowed to only the author of the category)</li> 
 
 API:  
 url :- api/users/ <br><br>
