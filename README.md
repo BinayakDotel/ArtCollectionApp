@@ -129,7 +129,23 @@ for Editing The User profile:<br>
       }<br>
 <p align="center">
   <img src="screenshots/EditProfile.jpg" width="350" title="hover text">
-</p>
+</p><hr>
 
+for Updating the Rating of the category:<br>
+  -> <b>API EndPoint URL</b> : api/category/edit/rate/<int:id> <br><br>
+  -> <b>HTTP method</b>: PUT<br>
+  -> <b>Parameters</b>:<br>
+        -categoryid: Id of category whose rate is to be updated <br>
+        -rating: New Rating
+  
+   -><b>Response</b>:<br>
+     if success:<br>
+      {<br>
+        "status": "success"<br>
+      }<br>
+      if error:<br>
+      {<br>
+        "status": "error"<br>
+      }<br>
 
   
